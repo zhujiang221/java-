@@ -1,0 +1,13 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: MyRegister
+  cloud:
+    nacos:
+      server-addr: localhost
+      discorvery:
+        server-addr: localhost
+        namespace: public
+
+
